@@ -1,4 +1,4 @@
-# USER STORIES
+# User Stories
 
 ```
 As a busy politician
