@@ -1,6 +1,16 @@
 # User Stories
 
 ```
+As a software developer,
+So I can satisfy the first user story in the simplest way,
+I would like to show one headline on a page. 
+```
+```
+As a software developer,
+So I can progress towards satisfying the first user story
+I would like to show multiple headlines on a page.
+```
+```
 As a busy politician
 I can see all of today's headlines in one place
 So I know what the big stories of the day are
