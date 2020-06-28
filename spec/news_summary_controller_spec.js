@@ -18,13 +18,3 @@ describe("NewsSummaryController", function() {
     expect(document.getElementById("app").innerHTML).toEqual(html)
   });
 });
-
-
-// var html = '<div><a href="#article/some headline">some headline</a></div><br>'
-// view.htmlWrap = function() {
-//       return html
-//     };
-    
-//     var controller = NewsSummaryController(view)
-//     controller.renderHtml()
-//     expect(document.getElementById("app").innerHTML === html)
