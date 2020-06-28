@@ -4,8 +4,6 @@
   }
 
   ArticleListView.prototype.htmlWrap = function() {
-    
-    console.log(this.list.returnList())
     html_array = []
     var articles = this.list.returnList();
     if (articles.length >= 1) {
