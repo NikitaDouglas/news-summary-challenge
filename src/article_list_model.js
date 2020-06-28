@@ -7,5 +7,10 @@
       this.list.push(new Article)
     };
   };
+
+  ArticleList.prototype.returnList = function() {
+    return this.list
+  };
+  
   exports.ArticleList = ArticleList
 })(this);
