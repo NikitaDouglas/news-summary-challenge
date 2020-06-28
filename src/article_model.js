@@ -1,10 +1,10 @@
 (function(exports) {
 
-  function  ArticleRequest() {
+  function  Article() {
     this.headline = "some_headline"
     this.url = "www.some-url.com"
   };
 
 
-  exports.ArticleRequest = ArticleRequest
+  exports.Article = Article;
 })(this);
