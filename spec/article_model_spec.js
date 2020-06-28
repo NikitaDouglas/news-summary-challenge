@@ -6,7 +6,7 @@ describe("ArticleRequest", function() {
     expect(article).toBeInstanceOf(Object);
   });
 
-  it ("should have a healine", function() {
+  it ("should have a headline", function() {
     expect(article.headline).toEqual("some_headline")
   });
 
