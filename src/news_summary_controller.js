@@ -8,5 +8,9 @@
     element.innerHTML = this.articleView.htmlWrap();
   };
 
+  NewsSummaryController.prototype.makeUrlChangeShowArticleForCurrentPage = function() {
+    window.addEventListener("hashchange", showArticleForCurrentPage);
+  };
+
   exports.NewsSummaryController = NewsSummaryController;
 })(this);

@@ -17,4 +17,17 @@ describe("NewsSummaryController", function() {
     console.log(document.getElementById("app"))
     expect(document.getElementById("app").innerHTML).toEqual(html)
   });
+
+  it ("shows show an article on a new page after hashchange event", function() {
+    var view = new ArticleListView;
+    var html = '<div><a href="#article/some headline">some headline</a></div><br>'
+      view.htmlWrap = function() {
+        return html
+      };
+    var controller = new NewsSummaryController(view)
+    controller.renderHtml();
+    controller.makeUrlChangeShowArticleForCurrentPage();
+     var htmlForArticle = '<div>some headline</div>'
+    expect(document.getElementById("app").innerHTML).toEqual(htmlForArticle)
+  });
 });
